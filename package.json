@@ -1,0 +1,20 @@
+{
+    "name": "@voidpkg/fastify-mongo-store",
+    "description": "A fastify session store using MongoDB",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "ts-node-dev ./example/test.ts",
+        "build": "tsc && npm run copy:files",
+        "copy:files": "cpx \"README.md\" \"dist\""
+    },
+    "author": "Void Development <support@voiddevs.org>",
+    "license": "ISC",
+    "dependencies": {
+        "mongodb": "^5.7.0",
+        "typescript": "^5.1.6"
+    },
+    "devDependencies": {
+        "@types/node": "^20.2.5"
+    }
+}
