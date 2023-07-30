@@ -1,7 +1,5 @@
 # @voidpkg/fastify-mongo-store
 
-![ci](https://github.com/voiddevsorg/fastify-mongo-store/actions/workflows/ci.yml/badge.svg)
-![standard](https://github.com/voiddevsorg/fastify-mongo-store/actions/workflows/standard.yml/badge.svg)
 ![node version](https://img.shields.io/badge/node%20-%3E=%2018.x-brightgreen.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
