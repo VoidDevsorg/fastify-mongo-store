@@ -33,11 +33,7 @@ app.register(require("@fastify/session"), {
     store: new Store({
         collection: "sessions",
         url: "mongodb://127.0.0.1:27017",
-        database: "fastify-mongodb-store",
-        options: {
-            useNewUrlParser: true,
-            useUnifiedTopology: true
-        }
+        database: "fastify-mongodb-store"
     })
 });
 ```
